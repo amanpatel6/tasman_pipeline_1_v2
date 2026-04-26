@@ -8,3 +8,4 @@ bronze/
 __pycache__/
 logs/
 .dlt/
+__marimo__/
