@@ -2,7 +2,7 @@
 
 ## Overview
 An end-to-end data pipeline that extracts brewery data from the Open Brewery DB API, loads it into DuckDB, and transforms it using dbt to produce a final mart table for analysis.
-
+```
 ## Project Structure
 tasman_pipeline_v2/
 ├── src/
@@ -16,7 +16,7 @@ tasman_pipeline_v2/
 ├── bronze/               # Raw JSON from API
 ├── pipeline.py           # Orchestrator - runs all three steps in order
 └── README.md
-
+```
 ## Setup
 1. Clone the repo
 2. Create and activate a virtual environment: `uv venv` then `source .venv/bin/activate`
