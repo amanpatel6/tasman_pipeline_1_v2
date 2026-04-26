@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: mart_brewery_by_state
+    columns:
+      - name: state_province
+        tests: 
+          - not_null
+          - unique
+      - name: breweries
+        tests: 
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 9559
+      - name: micro_breweries
+        tests: 
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 9559
+      - name: closed_breweries
+        tests: 
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 9559
+ 

@@ -1,0 +1,10 @@
+
+target/
+dbt_packages/
+logs/
+.venv/
+bronze/
+*.duckdb
+__pycache__/
+logs/
+.dlt/

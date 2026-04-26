@@ -1,0 +1,10 @@
+version: 2 # This is just the version of dbt YAML syntax being used. Always set it to 2 - it's been the standard for years
+
+sources:
+  - name: silver
+    schema: silver
+    tables:
+      - name: breweries_v2
+
+
+      

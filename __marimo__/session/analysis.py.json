@@ -1,0 +1,74 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.3",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "7dafcc13588b8de1c98f6562a8b0e485",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Hbol-0' random-id='a7fca19e-5757-cba8-2f13-42cca06ae990'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;state_province&#92;&quot;:&#92;&quot;Oklahoma&#92;&quot;,&#92;&quot;breweries&#92;&quot;:44,&#92;&quot;micro_breweries&#92;&quot;:30.0,&#92;&quot;closed_breweries&#92;&quot;:1.0},{&#92;&quot;state_province&#92;&quot;:&#92;&quot;Ohio&#92;&quot;,&#92;&quot;breweries&#92;&quot;:303,&#92;&quot;micro_breweries&#92;&quot;:163.0,&#92;&quot;closed_breweries&#92;&quot;:1.0},{&#92;&quot;state_province&#92;&quot;:&#92;&quot;Florida&#92;&quot;,&#92;&quot;breweries&#92;&quot;:312,&#92;&quot;micro_breweries&#92;&quot;:190.0,&#92;&quot;closed_breweries&#92;&quot;:0.0},{&#92;&quot;state_province&#92;&quot;:&#92;&quot;VIC&#92;&quot;,&#92;&quot;breweries&#92;&quot;:160,&#92;&quot;micro_breweries&#92;&quot;:151.0,&#92;&quot;closed_breweries&#92;&quot;:0.0},{&#92;&quot;state_province&#92;&quot;:&#92;&quot;Seoul&#92;&quot;,&#92;&quot;breweries&#92;&quot;:14,&#92;&quot;micro_breweries&#92;&quot;:0.0,&#92;&quot;closed_breweries&#92;&quot;:0.0}]&quot;' data-total-rows='5' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;state_province&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;breweries&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;micro_breweries&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;closed_breweries&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "2d5d8da58f30406ebbb3ffb58c5ff8a9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='3d744ddb-177f-4613-d9d5-17cfaa6c4bf3'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;state_province&#92;&quot;:&#92;&quot;California&#92;&quot;,&#92;&quot;max(breweries)&#92;&quot;:919}]&quot;' data-total-rows='1' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;state_province&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;max(breweries)&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "5d048e2f8e2cb164c82873efc6521739",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='bac3ee5f-c908-1e60-8e17-87ddfc6dbcc4'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;state_province&#92;&quot;:&#92;&quot;California&#92;&quot;,&#92;&quot;max(micro_breweries)&#92;&quot;:466.0}]&quot;' data-total-rows='1' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;state_province&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;max(micro_breweries)&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "54d315c2e37d45eb131f12e2ecbea98b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='lEQa-0' random-id='2b6590fc-c9b4-8c44-ad88-f22d1fa96df8'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;pct_closed&#92;&quot;:3.8}]&quot;' data-total-rows='1' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;pct_closed&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
